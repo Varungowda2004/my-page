@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background: #080808;
+    color: #fff;
+    overflow-x: hidden;
+}
+.varunimg img{
+
+
+    width: 400px;
+    top: -15%;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+    
+}
+nav ul{
+    transition: 2s;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+
+
+}
+
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: rgb(255, 0, 64);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+
+.header-text h1{
+    margin-top: 15%;
+    font-size: 72px;
+    color: gold;
+
+
+}
+
+
+.header-text p{
+    font-size: 21px;
+    margin-top: 54px;
+}
+.header-text p span{
+    color: gold;
+}
+.header-text h1 span{
+    color: white;
+}
+
+/*--------hobbies........*/
+#hobbies{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+#hobbies .title .head{
+    margin-top: 0%;
+    font-size: 65px;
+    color: rgb(100 100 100);
+    font-family: 'Anton', sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hobbies-col-1{
+    flex-basis: 35%;
+}
+
+
+
+.song{
+    font-family: 'Lobster Two', cursive;
+    color: #f7f7f75c;
+    font-size: 26px;
+}
+
+.Psong{
+    font-size: 19px;
+    color: rgb(196, 255, 206);
+
+}
+
+.audio{
+    width: 97%;
+    height: 29%;
+}
+.audio2{
+    width: 97%;
+    height: 29%;
+}
+
+
+.series{
+    font-family: 'Lobster Two', cursive;
+    color: #f7f7f75c;
+    font-size: 26px;
+}
+.pseries{
+    
+    font-size: 19px;
+    color: rgb(196, 255, 206);
+}
+.video{
+    
+    width: 27%;
+    height: 76%;
+    bottom: -51px;
+    transform: translateX(0);
+}
+.video2{
+    
+    width: 30%;
+    height: 77%;
+    bottom: -51px;
+    transform: translateX(0);
+}
+
+.hobbies-col-3 h1{
+    font-family: 'Lobster Two', cursive;
+    color: #f7f7f75c;
+    font-size: 26px;
+    position: relative;
+    bottom: 33%;
+    left: -10%;
+}
+.hobbies-col-3 p{
+    font-size: 19px;
+    color: rgb(196, 255, 206);
+    position: relative;
+    bottom: 28%;
+    left: -10%;
+
+
+}
+.hobbies-col-3 img{
+    position: relative;
+    width: 69%;
+    height: 68%;
+    bottom: 12%;
+    left: 0%;
+
+
+}
+.hobbies-col-4 h1{
+    font-family: 'Lobster Two', cursive;
+    color: #f7f7f75c;
+    font-size: 26px;
+    position: relative;
+    bottom: 70%;
+    left: 48%;
+}
+.hobbies-col-4 p{
+    font-size: 19px;
+    color: rgb(196, 255, 206);
+    position: relative;
+    bottom: 62%;
+    left: 47%;
+}
+
+.hobbies-col-4 img{
+    position: relative;
+    width: 20%;
+    height: 67%;
+    bottom: 91%;
+    left: 103%;
+}
+/*-----------track me--------*/
+
+.trackme h1{
+    margin-top: 0%;
+    font-size: 65px;
+    color: rgb(100 100 100);
+    font-family: 'Anton', sans-serif;
+    width: 16%;
+    left: 10%;
+}
+iframe{
+    width: 80%;
+    height: 646px;
+    
+}
+a{
+    width: 20%;
+    height: 200%;
+    border-radius: 50%;
+
+}
+.contact h1{
+    position: relative;
+    margin-top: 0%;
+    font-size: 65px;
+    color: rgb(100 100 100);
+    font-family: 'Anton', sans-serif;
+    width: 21%;
+    right: -45%;
+
+}
+.contact ul{
+ right: -45%;
+ position: relative;
+ width: 20%;
+}
+.contact ul li{
+   
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+   
+
+}
+.contact ul li a {
+color: white;
+text-decoration: none;
+font-size: 60px;
+position: relative;
+right: -45%;
+width: 100%;
+}
+.contact h3{
+    color: white;
+}
